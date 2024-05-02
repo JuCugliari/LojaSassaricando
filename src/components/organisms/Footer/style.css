@@ -1,0 +1,35 @@
+.footer {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 60px;
+ width: 100%;
+ background-color: #c8d3e4;
+}
+
+.footer span {
+ color: black;
+ font-size: 16px;
+ font-weight: 700;
+ font-family: "Gabriela", serif;
+ font-weight: 700;
+ font-style: normal;
+ margin-left: 50px;
+}
+
+.footer ul {
+ display: flex;
+ justify-content: space-around;
+ color: black;
+ font-size: 16px;
+ font-weight: 700;
+ font-family: "Gabriela", serif;
+ font-weight: 400;
+ font-style: normal;
+ list-style-type: none;
+ margin-right: 50px;
+}
+
+.footer ul li {
+ margin-left: 10px;
+}

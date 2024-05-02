@@ -1,0 +1,35 @@
+.container-login {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100vh;
+}
+
+.container-login form {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: #c8d3e4;
+ height: 300px;
+ width: 500px;
+ border-radius: 5%;
+}
+
+.button {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.button button {
+ width: 100px;
+}
+
+.esqueceu {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ width: 100%;
+}

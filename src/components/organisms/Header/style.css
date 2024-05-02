@@ -1,0 +1,43 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height: 100px;
+ background-color: #c8d3e4;
+ font-family: "Gabriela", serif;
+ font-style: normal;
+}
+
+.logo {
+ display: flex;
+ margin-left: 30px;
+ position: absolute;
+ margin-right: 1800px;
+}
+
+.logo img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.titulo {
+ display: flex;
+ font-size: 50px;
+ font-weight: 700;
+}
+
+.subtitulo {
+ display: flex;
+ justify-content: flex-end;
+ margin-bottom: 10px;
+ font-size: 20px;
+ width: 321.5px;
+}
