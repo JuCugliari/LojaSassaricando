@@ -23,7 +23,7 @@ export const UsuariosContextProvider = ({ children }) => {
      if (usuario.senha == dadosUsuario.senha) {
       localStorage.setItem("usuarioLogado", dadosUsuario.email);
 
-      window.location.href = "/cadastro";
+      window.location.href = "/";
 
       setTotalOnline(totalOnline + 1);
       atualizarStatusUsuario(usuario, usuario.id, true);

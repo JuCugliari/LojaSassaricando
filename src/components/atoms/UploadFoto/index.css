@@ -1,0 +1,35 @@
+.containerUpload {
+ display: flex;
+ flex-direction: column;
+ height: 15rem;
+ width: 30rem;
+}
+
+.containerUpload p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 30rem;
+ height: 2rem;
+ background-color: #e5e5e5;
+ border-radius: 15px;
+}
+
+.containerImagem {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 100%;
+ height: 100%;
+}
+
+.containerUpload img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 10rem;
+ height: 12rem;
+}
