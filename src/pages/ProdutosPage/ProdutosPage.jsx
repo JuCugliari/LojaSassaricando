@@ -2,8 +2,6 @@
 import styles from "./ProdutosPage.module.css";
 import { Grid, Typography } from "@mui/material/";
 import CardProdutoForm from "../../components/molecules/CardProdutoForm";
-import Header from "../../components/organisms/Header";
-import Footer from "../../components/organisms/Footer";
 import { useContext } from "react";
 import { ProdutosContext } from "../../context/ProdutosContext";
 
@@ -14,7 +12,6 @@ function ProdutosPage() {
   <Grid
    sx={{ flexDirection: "column" }}
    className={styles.containerPrincipalPagina}>
-   <Header />
    <Grid className={styles.containerPrincipalProdutos}>
     <Grid className={styles.logoPrincipal}>
      <img src="/assets/logo.png" alt="logo" width={400} height={400} />
@@ -26,7 +23,7 @@ function ProdutosPage() {
      {!isLoading &&
       produtos !== null &&
       produtos.map((produto, index) => (
-       <CardProdutoForm dadosProduto={produto} key={index} />
+       <CardProduto dadosProduto={produto} key={index} />
       ))}
     </Grid>
    </Grid>
@@ -40,7 +37,6 @@ function ProdutosPage() {
      Entrega personalizada! Entre em contato e descubra qual a mais vantajosa
     </Typography>
    </Grid>
-   <Footer />
   </Grid>
  );
 }
