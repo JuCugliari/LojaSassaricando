@@ -1,13 +1,9 @@
-import Login from "../../components/molecules/Login";
+import LoginForm from "../../components/molecules/LoginForm";
 
 function LoginPage() {
- function Logar() {
-  alert("Login efetuado com sucesso");
- }
-
  return (
   <>
-   <Login submit={Logar} />
+   <LoginForm />
   </>
  );
 }

@@ -1,0 +1,49 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Teste",
+      "email": "teste@teste.com.br",
+      "senha": "123456",
+      "isOnline": true
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "produto": "Camiseta",
+      "codProduto": "02595",
+      "preco": 32.9
+    },
+    {
+      "id": "2",
+      "produto": "Blusa",
+      "codProduto": "62548",
+      "preco": 51.9
+    },
+    {
+      "id": "3",
+      "produto": "Calça",
+      "codProduto": "62515",
+      "preco": 65.9
+    },
+    {
+      "id": "6",
+      "produto": "Vestido",
+      "codProduto": "65831",
+      "preco": 95.9
+    },
+    {
+      "id": "7",
+      "produto": "Bolsa",
+      "codProduto": "33569",
+      "preco": 149.9
+    },
+    {
+      "id": "8",
+      "produto": "Carteira",
+      "codProduto": "99654",
+      "preco": 49.9
+    }
+  ]
+}
