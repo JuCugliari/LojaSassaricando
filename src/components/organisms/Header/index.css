@@ -1,0 +1,116 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Inter", sans-serif;
+}
+
+.header {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 80px;
+ width: 100%;
+ background-color: #c8d3e4;
+}
+
+.header .logoMeio {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ height: 100%;
+ margin-left: 200px;
+}
+
+.header .navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+}
+
+.logoHeader {
+ display: flex;
+ justify-content: center;
+ margin-left: 20px;
+}
+
+.labelHome {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 100%;
+}
+
+.labelHome img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50px;
+ height: 50px;
+}
+
+.navbar .sair {
+ margin-right: 30px;
+ background-color: transparent;
+ color: white;
+ font-weight: bold;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+}
+
+.sair img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+}
+
+.navbar ul {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.navbar a {
+ text-decoration: none;
+ color: black;
+ width: 100%;
+}
+
+.navbar li {
+ list-style: none;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+ .header {
+  height: 100%;
+  width: 100vw;
+ }
+
+ .header .navbar {
+  height: 100%;
+  width: 100vw;
+ }
+
+ .header .navbar ul {
+  font-size: 15px;
+ }
+
+ .logoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 50px;
+ }
+}
