@@ -1,0 +1,181 @@
+.containerCadastroProdutos {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+ background-color: #e5e5e5;
+}
+
+.cadastroFormProdutos {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.cadastroFormProdutos .logoCadastroProdutos img {
+ width: 150px;
+ height: 150px;
+}
+
+.containerCadastroProdutos .cadastroFormProdutos {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.cadastroFormProdutos form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 650px;
+ width: 500px;
+ gap: 30px;
+ background-color: white;
+ border-radius: 15px;
+}
+
+.cadastroFormProdutos .logoCadastroProdutos img {
+ width: 100px;
+ height: 100px;
+ margin-top: 30px;
+}
+
+.gridNomeProduto {
+ display: grid;
+ grid-template-columns: 0.5fr 2fr;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+ width: 30rem;
+}
+
+.gridNomeProduto div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 2rem;
+}
+
+.gridNomeProduto input {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 0;
+}
+
+.dadosComplementares {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ gap: 5px;
+ width: 30rem;
+}
+
+.dadosComplementares div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 2rem;
+}
+
+.dadosComplementares input {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 0;
+}
+
+.containerButtonCadastroProdutos {
+ display: flex;
+ height: 100px;
+ flex-direction: column;
+ margin-top: 30px;
+ gap: 20px;
+}
+
+.containerButtonCadastroProdutos a {
+ text-decoration: none;
+}
+
+.containerButtonCadastroProdutos button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.containerButtonCadastroProdutos .buttonCadastrar:hover {
+ background-color: white;
+ color: #1976d2;
+ font-weight: bold;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+ .cadastroFormProdutos form {
+  width: 17rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 80px;
+ }
+
+ .containerCadastroProdutos .gridNomeProduto {
+  width: 15rem;
+ }
+
+ .containerCadastroProdutos .dadosComplementares {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+ }
+
+ .containerButtonCadastroProdutos {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+ }
+}
+
+@media (max-width: 1024px) {
+ .cadastroFormProdutos {
+  width: 40rem;
+  height: 100%;
+ }
+
+ .cadastroFormProdutos form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  border-radius: 15px;
+ }
+
+ .gridNomeProduto div {
+  width: 100%;
+ }
+
+ .containerButtonCadastroProdutos {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .containerButtonCadastroProdutos button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+ }
+}

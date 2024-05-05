@@ -1,8 +1,12 @@
+import { Grid } from "@mui/material";
+import CadastroProdutosForm from "../../components/molecules/CadastroProdutosForm";
+import styles from "./CadastroProdutosPage.module.css";
+
 function Cadastro() {
  return (
-  <>
-   <h1>Página Cadastro</h1>
-  </>
+  <Grid className={styles.containerPrincipalCadastro}>
+   <CadastroProdutosForm />
+  </Grid>
  );
 }
 
