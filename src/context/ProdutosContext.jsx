@@ -5,7 +5,7 @@ import getJson from "../hooks/getJson";
 export const ProdutosContext = createContext();
 
 export const ProdutosContextProvider = ({ children }) => {
- const [dados, isLoading] = getJson("../../public/data/cards.json");
+ const [dados, isLoading] = getJson("/data/cards.json");
  const [produtos, setProdutos] = useState([]);
 
  useEffect(() => {
