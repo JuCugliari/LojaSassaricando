@@ -2,11 +2,12 @@
 
 ## Sobre o Sassaricando
 
-O _Sassaricando_ é um software inovador projetado para ajudar pessoas a encontrar os melhores locais para práticas de exercícios ao ar livre. Seja você um entusiasta do fitness procurando por novos lugares para correr ou alguém que quer começar a se exercitar mas não sabe por onde começar, o ExerciseOpenAir é a solução.
+O _Sassaricando_ é um software projetado para expor roupas que estão à venda na empresa Sassaricando.
 
 ## Problema Resolvido
 
-Encontrar locais adequados para exercícios ao ar livre pode ser desafiador, especialmente em áreas urbanas. O ExerciseOpenAir resolve esse problema ao fornecer uma plataforma fácil de usar que lista locais para atividades físicas ao ar livre.
+O problema da nossa cliente Sabrina está relacionado com a profissão que ela exerce, a de venda de roupas femininas de sua empresa “Sassaricando Moda Feminina”. Na formulação do problema, consideramos os seguintes aspectos apresentados pela cliente:
+A visibilidade de sua mercadoria é limitada à locais físicos que ela expõe a mercadoria para potenciais compradoras, isso causa a restrição de divulgação de seus produtos. Concorrência online também foi um fator relevante apresentado pela cliente, pois há grande número de lojas online. Sem uma presença online, a vendedora pode enfrentar dificuldades em promover seus produtos. Outro aspecto apresentado, foi a dificuldade de construir novos relacionamentos, pois o procedimento de trabalho atual envolve ser indicada por clientes que já conhecem seu trabalho.
 
 ## Tecnologias Utilizadas
 
