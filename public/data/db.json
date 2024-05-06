@@ -22,6 +22,27 @@
       "nome": "Jaqueta",
       "tamanho": "G",
       "preco": "115.00"
+    },
+    {
+      "id": "fd6d",
+      "codigo": "1600",
+      "nome": "Camiseta Branca",
+      "tamanho": "GG",
+      "preco": "25.50"
+    },
+    {
+      "id": "8f4a",
+      "codigo": "1605",
+      "nome": "Calça Jeans",
+      "tamanho": "M",
+      "preco": "25.50"
+    },
+    {
+      "id": "cb98",
+      "codigo": "3658",
+      "nome": "Blusa",
+      "tamanho": "P",
+      "preco": "15.00"
     }
   ]
 }

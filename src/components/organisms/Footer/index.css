@@ -1,8 +1,9 @@
-.container-footer {
+.containerFooter {
  display: flex;
  justify-content: center;
- height: 60px;
- width: 100vw;
+ align-items: center;
+ height: 32px;
+ background-color: #c8d3e4;
  z-index: 100;
 }
 
@@ -10,8 +11,8 @@
  display: flex;
  justify-content: space-around;
  align-items: center;
- height: 60px;
- width: 100%;
+ height: 32px;
+ width: 100vw;
  background-color: #c8d3e4;
  z-index: 100;
 }
@@ -28,7 +29,7 @@
  display: flex;
  justify-content: space-around;
  color: white;
- font-size: 16px;
+ font-size: 1px;
  font-weight: 700;
  font-family: "Inter", sans-serif;
  list-style-type: none;
