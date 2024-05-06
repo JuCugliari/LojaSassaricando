@@ -22,7 +22,9 @@ function TrilhasFooter() {
       </a>
      </li>
      <li>
-      <a href="URL-LOJA" target="_blank">
+      <a
+       href="https://api.whatsapp.com/send?phone=5548984586588&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20o%20produto.%20"
+       target="_blank">
        <WhatsAppIcon sx={{ color: "black" }} />
       </a>
      </li>
